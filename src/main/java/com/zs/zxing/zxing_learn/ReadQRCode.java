@@ -20,7 +20,7 @@ public class ReadQRCode {
 	public static void main(String[] args) {
 		try {
 			MultiFormatReader formatReader = new MultiFormatReader();
-			File file = new File("f:/11.jpg");
+			File file = new File("/Users/madison/Downloads/fkm.jpeg");
 			
 			BufferedImage image = ImageIO.read(file);
 			
